@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2 - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1 id="title">Lab 2: JSON, Object Constructor, localStorage</h1>
+    <h3 id="author">Son Bui</h3>
+
+    <div class="nav-links">
+        <a href="writer.html" id="btn-writer" class="nav-btn"></a>
+        <a href="reader.html" id="btn-reader" class="nav-btn"></a>
+    </div>
+
+    <script type="module">
+        import { STRINGS } from "./lang/messages/en/user.js";
+        document.getElementById("btn-writer").textContent = STRINGS.BTN_WRITER;
+        document.getElementById("btn-reader").textContent = STRINGS.BTN_READER;
+    </script>
+</body>
+
+</html>
